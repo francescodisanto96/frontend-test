@@ -1,0 +1,17 @@
+// Import custom variables
+@import './variables';
+
+// Creazioni di classi custom da $custom-colors
+@each $name, $color in $custom-colors {
+  .text-#{$name} {
+    color: #{$color} !important;
+  }
+
+  .bg-#{$name} {
+    background-color: #{$color} !important;
+  }
+
+  .border-#{$name} {
+    border-color: #{$color} !important;
+  }
+}

@@ -1,0 +1,136 @@
+// Import font da Google
+/* @import url('https://fonts.googleapis.com/css2?family=Alessandria&display=swap'); */
+//COMMENTATO PER BLOCCO DA ORB/CORS
+
+// Importa variabili custom
+@import './bootstrap/variables';
+
+// Importa base Bootstrap
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/variables';
+
+// Fai merge con quelle Bootstrap
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+// Importa il resto di Bootstrap
+@import 'bootstrap/scss/maps';
+@import 'bootstrap/scss/mixins';
+@import 'bootstrap/scss/utilities';
+
+// Importa file personalizzati
+@import "./bootstrap/utilities";
+/* @import "./bootstrap/typography"; */
+
+
+@import 'bootstrap/scss/bootstrap';
+
+$custom-gradient: linear-gradient(180deg, $white 0%, $primary-30 100%);
+
+.bg-custom-gradient {
+  background: $custom-gradient;
+}
+
+header,
+footer {
+  a {
+    color: $white;
+    transition: 0.5s;
+
+    &:not(.logo) {
+      &:hover {
+        opacity: .7;
+      }
+    }
+  }
+}
+
+header {
+  height: 95px;
+
+  .languages-items {
+    li:not(:last-child) {
+      &::after {
+        content: "";
+        border: 1px solid $white;
+        margin: 0 5px;
+      }
+    }
+  }
+}
+
+main {
+
+  .accordion {
+    .accordion-item {
+      border-radius: var(--bs-accordion-inner-border-radius);
+      border-top: var(--bs-accordion-border-width) solid var(--bs-accordion-border-color);
+
+      .accordion-header {
+        .accordion-button {
+          font-size: 1.25rem;
+          font-weight: bold;
+          border-top-left-radius: var(--bs-accordion-inner-border-radius);
+          border-top-right-radius: var(--bs-accordion-inner-border-radius);
+
+          &.collapsed {
+            border-bottom-left-radius: var(--bs-accordion-inner-border-radius);
+            border-bottom-right-radius: var(--bs-accordion-inner-border-radius);
+          }
+
+          &:not(.collapsed) {
+            padding-bottom: 0;
+            box-shadow: none;
+          }
+        }
+      }
+
+      .accordion-body {
+        border-bottom-left-radius: var(--bs-accordion-inner-border-radius);
+        border-bottom-right-radius: var(--bs-accordion-inner-border-radius);
+      }
+
+    }
+  }
+
+  section.hero {
+    @include media-breakpoint-up(lg) {
+      height: 100vh;
+    }
+
+    .hero-image-wrapper {
+      @include media-breakpoint-up(lg) {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+    }
+  }
+
+  section.cards {
+    .animal-card {
+      height: 640px;
+    }
+  }
+
+  section.features {
+    .features-items {
+      .features-item {
+        min-height: 56px;
+
+        &.bg-primary-200 {
+          --bs-bg-opacity: 0.4;
+        }
+      }
+    }
+  }
+
+
+}
+
+footer {
+  .social-items {
+    li:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+}
