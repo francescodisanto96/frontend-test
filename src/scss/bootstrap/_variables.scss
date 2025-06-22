@@ -73,38 +73,13 @@ $link-hover-color: shift-color($link-color, $link-shade-percentage);
 
 /**** CONTAINER ****/
 $container-max-widths: (
-  xxl: 1356px
+  xl: 1200px,
+  xxl: 1400px
 );
 
 
 /**** GRID ****/
 $grid-gutter-width: 2.8125rem;
-
-
-/**** ACCORDION ****/
-$accordion-color: $neutral-100;
-$accordion-bg: $white;
-
-$accordion-border-color: $primary-100;
-$accordion-border-radius: 1rem;
-$accordion-inner-border-radius: 1rem;
-
-$accordion-body-padding-x: 2rem;
-
-$accordion-button-padding-y: 2rem;
-$accordion-button-padding-x: 2rem;
-
-$accordion-button-color: $primary-200;
-$accordion-button-bg: $white;
-
-$accordion-button-active-bg: $primary-10;
-$accordion-button-active-color: $primary-200;
-
-$accordion-button-focus-border-color: none;
-$accordion-button-focus-box-shadow: none;
-
-$accordion-icon-width: 1rem;
-$accordion-icon-color: $primary-200;
 
 
 /**** SPACERS ****/
@@ -267,3 +242,29 @@ $position-values: (
   95: 95%,
   100: 100%
 );
+
+
+/**** ACCORDION ****/
+$accordion-color: $neutral-100;
+$accordion-bg: $white;
+
+$accordion-border-color: $primary-100;
+$accordion-border-radius: 1rem;
+$accordion-inner-border-radius: 1rem;
+
+$accordion-body-padding-x: 2rem;
+
+$accordion-button-padding-y: 2rem;
+$accordion-button-padding-x: 2rem;
+
+$accordion-button-color: $primary-200;
+$accordion-button-bg: $white;
+
+$accordion-button-active-bg: $primary-10;
+$accordion-button-active-color: $primary-200;
+
+$accordion-button-focus-border-color: none;
+$accordion-button-focus-box-shadow: none;
+
+$accordion-icon-width: 1rem;
+$accordion-icon-color: $primary-200;

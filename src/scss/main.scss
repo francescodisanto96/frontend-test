@@ -32,6 +32,7 @@ $custom-gradient: linear-gradient(180deg, $white 0%, $primary-30 100%);
 
 header,
 footer {
+
   a {
     color: $white;
     transition: 0.5s;
@@ -46,6 +47,15 @@ footer {
 
 header {
   height: 95px;
+
+  .hamburger {
+    width: 30px;
+    height: 20px;
+
+    span {
+      height: 2px;
+    }
+  }
 
   .languages-items {
     li:not(:last-child) {
@@ -109,13 +119,38 @@ main {
   section.cards {
     .animal-card {
       height: 640px;
+
+      .animal-shape-wrapper {
+        @include media-breakpoint-up(sm) {
+          width: auto !important;
+        }
+      }
     }
   }
 
   section.features {
+    h3.features-title {
+      @include media-breakpoint-down(lg) {
+        transform: translateX(0) !important;
+      }
+
+      @include media-breakpoint-up(lg) {
+        position: absolute;
+      }
+    }
+
     .features-items {
       .features-item {
         min-height: 56px;
+
+        @include media-breakpoint-down(lg) {
+          margin-bottom: .5rem;
+          transform: translateX(0) !important;
+        }
+
+        @include media-breakpoint-up(lg) {
+          position: absolute;
+        }
 
         &.bg-primary-200 {
           --bs-bg-opacity: 0.4;

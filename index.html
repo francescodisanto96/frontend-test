@@ -14,39 +14,46 @@
 <body>
 
   <!--  HEADER -->
-  <header class="container bg-primary-200 rounded-5 px-lg-0 py-3 mt-4 mt-xl-8 mb-16">
+  <header class="container bg-primary-200 rounded-5 py-3 mt-4 mt-xl-8 mb-8 mb-lg-16">
     <div class="row justify-content-between align-items-center h-100">
-      <div class="col-sm-4 col-lg-2 offset-lg-1 ps-lg-0">
+      <div class="col-6 col-lg-2 offset-xxl-1">
         <a href="#" class="logo">
-          <img src="/logo.svg" alt="Lorem" />
+          <img src="/logo.svg" alt="Lorem" class="w-auto" />
         </a>
       </div>
-      <div class="col-sm-4 col-lg-7 d-none d-lg-block">
+      <div class="col-lg-8 col-xxl-7 d-none d-lg-block">
         <nav>
           <ul class="d-flex justify-content-between align-items-center list-unstyled mb-0">
-            <li>
+            <li class="me-2 me-xl-0">
               <a href="#" class="link-underline link-underline-opacity-0">Idratazione</a>
             </li>
-            <li>
+            <li class="me-2 me-xl-0">
               <a href="#" class="link-underline link-underline-opacity-0">Per il tuo cane</a>
             </li>
-            <li>
+            <li class="me-2 me-xl-0">
               <a href="#" class="link-underline link-underline-opacity-0">Per il tuo gatto</a>
             </li>
-            <li>
+            <li class="me-2 me-xl-0">
               <a href="#" class="link-underline link-underline-opacity-0">Domande frequenti</a>
             </li>
-            <li>
+            <li class="me-2 me-xl-0">
               <a href="#" class="link-underline link-underline-opacity-0">Dove la trovi</a>
             </li>
           </ul>
         </nav>
       </div>
-      <div class="col-sm-2 col-lg-2">
-        <ul class="d-flex align-items-center list-unstyled text-uppercase mb-0 languages-items">
+      <div class="col-2 col-lg-1 col-xxl-2">
+        <ul class="d-flex align-items-center justify-content-center list-unstyled text-uppercase mb-0 languages-items">
           <li><a href="" class="link-underline link-underline-opacity-0">It</a></li>
           <li><a href="" class="link-underline link-underline-opacity-0">En</a></li>
         </ul>
+      </div>
+      <div class="col-2 d-lg-none px-0">
+        <a href="#" aria-label="menu" class="d-flex flex-column justify-content-between hamburger">
+          <span class="bg-white rounded-4 mb-1"></span>
+          <span class="bg-white rounded-4 mb-1"></span>
+          <span class="bg-white rounded-4"></span>
+        </a>
       </div>
     </div>
   </header>
@@ -58,9 +65,10 @@
     <section class="position-relative hero">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-xl-4 offset-xl-1 px-lg-0">
-            <h1 class="display-1 text-primary-200 fw-bold text-uppercase mb-9 mb-lg-14">Lorem</h1>
-            <h2 class="h1 text-primary-200 fw-bold mb-8">Lorem ipsum<br class="d-none d-lg-block"> dolor sit amet</h2>
+          <div class="col-12 col-lg-6 col-xxl-4 offset-xxl-1 mb-10 mb-lg-0">
+            <h1 class="display-1 text-primary-200 fw-bold text-uppercase mb-6 mb-lg-14">Lorem</h1>
+            <h2 class="h1 text-primary-200 fw-bold mb-4 mb-lg-8">Lorem ipsum<br class="d-none d-lg-block"> dolor sit
+              amet</h2>
             <p class="fs-1 text-neutral-100 mb-5">Lorem ipsum dolor sit amet,<br class="d-none d-lg-block">consectetur
               adipiscing elit</p>
             <a href="#" class="btn bg-primary-200 text-white rounded-4 px-6 py-4" role="button">Scopri
@@ -82,7 +90,7 @@
       <section class="mb-12 mb-xl-30 cards">
         <div class="container mb-7 mb-lg-14">
           <div class="row">
-            <div class="col-sm-12 col-lg-8 offset-lg-2 px-0">
+            <div class="col-12 col-lg-8 offset-lg-2 px-lg-0">
               <h2 class="h1 text-primary-200 fw-bold text-center mb-0">Scegli la variante più adatta al tuo amico a 4
                 zampe.
               </h2>
@@ -91,45 +99,45 @@
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-lg-5 offset-lg-1 ps-lg-0">
+            <div class="col-12 col-lg-6 col-xxl-5 offset-xxl-1 mb-6 mb-lg-0">
               <div class="bg-accent-cat-30 rounded-5 position-relative p-10 animal-card">
-                <div class="h-100 d-flex flex-column justify-content-between z-2">
-                  <div class="align-self-end w-50">
+                <div class="h-100 d-flex flex-column justify-content-between">
+                  <div class="align-self-end w-50 z-2">
                     <span class="fs-2 text-accent-cat-200 text-uppercase mb-2">Per il gatto</span>
                     <h3 class="h2 text-accent-cat-200 fw-bold">Lorem<br> Urinary</h3>
                   </div>
-                  <div class="">
+                  <div class="z-2">
                     <h3 class="h2 text-accent-cat-200 fw-bold mb-6">Protegge<br> le sue vie<br> urinarie.</h3>
                     <a href="#" class="btn bg-primary-200 text-white rounded-4 px-6 py-4" role="button">Scopri
                       perchè funziona</a>
                   </div>
                 </div>
-                <div class="position-absolute top-0 start-0 z-1">
-                  <img src="/cat-shape.svg" alt="" />
+                <div class="position-absolute top-0 start-0 w-50 z-1 animal-shape-wrapper">
+                  <img src="/cat-shape.svg" alt="" class="w-100" />
                 </div>
-                <div class="position-absolute bottom-0 end-0 z-1">
-                  <img src="/cat-image.png" alt="" />
+                <div class="position-absolute bottom-0 end-0 w-50 z-1 animal-shape-wrapper">
+                  <img src="/cat-image.png" alt="" class="w-100" />
                 </div>
               </div>
             </div>
-            <div class="col-sm-12 col-lg-5 pe-lg-0">
+            <div class="col-12 col-lg-6 col-xxl-5">
               <div class="bg-accent-dog-30 rounded-5 position-relative p-10 animal-card">
-                <div class="h-100 d-flex flex-column justify-content-between z-2">
-                  <div class="align-self-end w-50">
+                <div class="h-100 d-flex flex-column justify-content-between">
+                  <div class="align-self-end w-50 z-2">
                     <span class="fs-2 text-accent-dog-200 text-uppercase mb-2">Per il cane</span>
                     <h3 class="h2 text-accent-dog-200 fw-bold">Lorem<br> Gastro<br> Intestinale</h3>
                   </div>
-                  <div class="">
+                  <div class="z-2">
                     <h3 class="h2 text-accent-dog-200 fw-bold mb-6">Aiuta<br> la sua<br> digestione</h3>
                     <a href="#" class="btn bg-primary-200 text-white rounded-4 px-6 py-4" role="button">Scopri
                       perchè funziona</a>
                   </div>
                 </div>
-                <div class="position-absolute top-0 start-0 z-1">
-                  <img src="/dog-shape.svg" alt="" />
+                <div class="position-absolute top-0 start-0 w-50 z-1 animal-shape-wrapper">
+                  <img src="/dog-shape.svg" alt="" class="w-100" />
                 </div>
-                <div class="position-absolute bottom-0 end-0 z-1">
-                  <img src="/dog-image.png" alt="" />
+                <div class="position-absolute bottom-0 end-0 w-50 z-1 animal-shape-wrapper">
+                  <img src="/dog-image.png" alt="" class="w-100" />
                 </div>
               </div>
             </div>
@@ -139,98 +147,111 @@
 
       <!-- FEATURES SECTION -->
       <section class="mb-12 features">
+
         <div class="container position-relative mb-7 mb-lg-14">
-          <div class="row">
-            <div class="col-sm-12 col-lg-8 offset-lg-2 z-1 px-0">
+
+          <div class="row mb-8 mb-lg-0">
+            <div class="col-sm-12 col-lg-8 offset-lg-2 z-1 px-lg-0">
               <h2 class="h1 text-primary-200 fw-bold text-center mb-0">Dentro ogni goccia di Lorem Ipsum, la formula
                 della felicità</h2>
             </div>
           </div>
-          <div class="row">
-            <div class="col-sm-12 col-lg-6 offset-lg-1 z-1 px-0">
-              <div class="position-relative">
-                <picture>
-                  <source media="(min-width: 576px)" srcset="/bg-features-1.png">
-                  <img src="/bg-features-1.png" alt="Lorem Ipsum" class="w-100">
-                </picture>
-                <div class="features-items">
-                  <div
-                    class="position-absolute top-25 start-50 translate-middle bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
-                    <div class="d-flex align-items-center">
-                      <img src="/icon-1.svg" alt="Lorem" class="pe-4" />
-                      <p class="text-white mb-0">Nessun beneficio specifico </p>
-                    </div>
-                  </div>
-                  <div class="position-absolute top-40 start-15 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
-                    <div class="d-flex align-items-center">
-                      <img src="/icon-2.svg" alt="Lorem" class="pe-4" />
-                      <p class="text-white mb-0">Nessun aroma </p>
-                    </div>
-                  </div>
-                  <div class="position-absolute top-45 end-0 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
-                    <div class="d-flex align-items-center">
-                      <img src="/icon-3.svg" alt="Lorem" class="pe-4" />
-                      <p class="text-white mb-0">Non testata su cani e gatti </p>
-                    </div>
+
+          <div class="row mb-8 mb-lg-0">
+
+            <div class="col-sm-12 col-lg-8 col-xxl-6 offset-xxl-1 position-relative z-1">
+
+              <picture>
+                <source media="(min-width: 576px)" srcset="/bg-features-1.png">
+                <img src="/bg-features-1.png" alt="Lorem Ipsum" class="d-none d-lg-block w-100">
+              </picture>
+
+              <h3
+                class="top-65 start-50 translate-middle-x text-primary-200 text-center fw-bold mb-6 mb-lg-0 features-title">
+                Acqua</h3>
+
+              <div class="features-items">
+                <div class="top-25 start-50 translate-middle bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
+                  <div class="d-flex align-items-center">
+                    <img src="/icon-1.svg" alt="Lorem" class="pe-4" />
+                    <p class="text-white mb-0">Nessun beneficio specifico </p>
                   </div>
                 </div>
-                <h3 class="position-absolute top-65 start-50 translate-middle-x text-primary-200 text-center fw-bold">
-                  Acqua</h3>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-sm-12 col-lg-7 offset-lg-4 z-1 px-0">
-              <div class="position-relative">
-                <picture>
-                  <source media="(min-width: 576px)" srcset="/bg-features-2.png">
-                  <img src="/bg-features-2.png" alt="Lorem Ipsum" class="w-100">
-                </picture>
-                <div class="features-items">
-                  <div class="position-absolute top-10 start-15 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
-                    <div class="d-flex align-items-center">
-                      <img src="/icon-4.svg" alt="Lorem" class="pe-4" />
-                      <p class="text-white mb-0">Benefici specifici </p>
-                    </div>
-                  </div>
-                  <div
-                    class="position-absolute top-10 end-15 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item features-item">
-                    <div class="d-flex align-items-center">
-                      <img src="/icon-5.svg" alt="Lorem" class="pe-4" />
-                      <p class="text-white mb-0">Specifica per cani e gatti </p>
-                    </div>
-                  </div>
-                  <div
-                    class="position-absolute top-30 start-50 translate-middle-x bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
-                    <div class="d-flex align-items-center">
-                      <img src="/icon-6.svg" alt="Lorem" class="pe-4" />
-                      <p class="text-white mb-0">Preferita all’acqua standard durante i test </p>
-                    </div>
-                  </div>
-                  <div class="position-absolute top-50 start-0 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
-                    <div class="d-flex align-items-center">
-                      <img src="/icon-7.svg" alt="Lorem" class="pe-4" />
-                      <p class="text-white mb-0">Testata da veterinari </p>
-                    </div>
-                  </div>
-                  <div class="position-absolute top-50 end-0 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
-                    <div class="d-flex align-items-center">
-                      <img src="/icon-8.svg" alt="Lorem" class="pe-4" />
-                      <p class="text-white mb-0">Aroma invitante </p>
-                    </div>
+                <div class="top-40 start-15 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
+                  <div class="d-flex align-items-center">
+                    <img src="/icon-2.svg" alt="Lorem" class="pe-4" />
+                    <p class="text-white mb-0">Nessun aroma </p>
                   </div>
                 </div>
-                <h3 class="position-absolute top-65 start-50 translate-middle-x text-primary-200 text-center fw-bold">
-                  Lorem Ipsum</h3>
+                <div class="top-45 end-0 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
+                  <div class="d-flex align-items-center">
+                    <img src="/icon-3.svg" alt="Lorem" class="pe-4" />
+                    <p class="text-white mb-0">Non testata su cani e gatti </p>
+                  </div>
+                </div>
               </div>
+
             </div>
+
           </div>
+
+          <div class="row">
+
+            <div class="col-12 col-lg-9 col-xxl-7 offset-lg-3 offset-xxl-4 position-relative z-1">
+
+              <picture>
+                <source media="(min-width: 576px)" srcset="/bg-features-2.png">
+                <img src="/bg-features-2.png" alt="Lorem Ipsum" class="d-none d-lg-block w-100">
+              </picture>
+
+              <h3
+                class="top-65 start-50 translate-middle-x text-primary-200 text-center fw-bold mb-6 mb-lg-0 features-title">
+                Lorem Ipsum</h3>
+
+              <div class="features-items">
+                <div class="top-10 start-15 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
+                  <div class="d-flex align-items-center">
+                    <img src="/icon-4.svg" alt="Lorem" class="pe-4" />
+                    <p class="text-white mb-0">Benefici specifici </p>
+                  </div>
+                </div>
+                <div class="top-10 end-15 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item features-item">
+                  <div class="d-flex align-items-center">
+                    <img src="/icon-5.svg" alt="Lorem" class="pe-4" />
+                    <p class="text-white mb-0">Specifica per cani e gatti </p>
+                  </div>
+                </div>
+                <div class="top-30 start-50 translate-middle-x bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
+                  <div class="d-flex align-items-center">
+                    <img src="/icon-6.svg" alt="Lorem" class="pe-4" />
+                    <p class="text-white mb-0">Preferita all’acqua standard durante i test </p>
+                  </div>
+                </div>
+                <div class="top-50 start-0 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
+                  <div class="d-flex align-items-center">
+                    <img src="/icon-7.svg" alt="Lorem" class="pe-4" />
+                    <p class="text-white mb-0">Testata da veterinari </p>
+                  </div>
+                </div>
+                <div class="top-50 end-0 bg-primary-200 rounded-4 ps-2 pe-8 py-2 features-item">
+                  <div class="d-flex align-items-center">
+                    <img src="/icon-8.svg" alt="Lorem" class="pe-4" />
+                    <p class="text-white mb-0">Aroma invitante </p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
           <div class="position-absolute top-50 start-50 translate-middle z-0">
             <picture>
               <source media="(min-width: 576px)" srcset="/bg-section-features.svg">
               <img src="/bg-section-features.svg" alt="Lorem Ipsum" class="w-100">
             </picture>
           </div>
+
         </div>
       </section>
 
@@ -238,7 +259,7 @@
       <section class="call-to-action mb-12">
         <div class="container">
           <div class="row">
-            <div class="col-sm-12 col-lg-10 offset-lg-1 px-0">
+            <div class="col-sm-12 col-lg-10 offset-lg-1 px-lg-0">
               <h2 class="h1 text-primary-200 fw-bold text-center mb-6">Lorem Ipsum è più vicina di quanto pensi</h2>
               <p class="fs-1 text-neutral-100 text-center mb-12">La trovi in esclusiva da Lorem Ipsum. Trova il punto
                 vendita più
@@ -257,7 +278,7 @@
     <section class="py-20 mb-20 faqs">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-lg-6 offset-lg-1 ps-lg-0">
+          <div class="col-12 col-lg-6 offset-lg-1">
             <h2 class="h1 text-primary-200 fw-bold mb-7">Dubbi, curiosità, domande?</h2>
             <p class="fs-1 text-neutral-100 mb-11">Qui trovi tutte le risposte su come, quando e perché scegliere
               Happy2O
@@ -316,7 +337,7 @@
             <a href="#" class="btn bg-primary-200 text-white rounded-4 px-6 py-4" role="button">Vedi tutte</a>
           </div>
 
-          <div class="col-sm-12 col-lg-5 mt-xl-n60">
+          <div class="col-12 col-lg-5 mt-xl-n60">
             <picture>
               <source media="(min-width: 576px)" srcset="/faqs-image.png">
               <img src="/faqs-image.png" alt="Lorem Ipsum" class="w-100">
@@ -331,7 +352,7 @@
   <!--  FOOTER -->
   <footer class="container bg-primary-200 rounded-5 px-lg-0 py-6 py-xl-13 mb-12 mb-xl-24">
     <div class="row align-items-center mb-6 mb-xl-12">
-      <div class="col-sm-12 col-lg-9 col-xl-8 offset-lg-1 offset-xl-2 ps-lg-0">
+      <div class="col-12 col-lg-9 col-xl-8 offset-lg-1 offset-xl-2">
         <nav>
           <ul class="d-flex justify-content-between align-items-center list-unstyled mb-0">
             <li>
@@ -355,14 +376,14 @@
           </ul>
         </nav>
       </div>
-      <div class="col-sm-1 col-lg-2">
+      <div class="col-1 col-lg-2">
         <ul class="d-flex align-items-center list-unstyled text-uppercase mb-0 social-items">
           <li><a href=""><img src="/instagram-logo.svg" alt="Instagram" /></a></li>
         </ul>
       </div>
     </div>
     <div class="row mb-6">
-      <div class="col-sm-12 col-lg-9 col-xl-8 offset-lg-1 offset-xl-2 px-lg-0">
+      <div class="col-12 col-xl-8 offset-xl-2">
         <nav class="d-flex justify-content-center align-items-center list-unstyled">
           <li class="px-3">
             <a href="#" class="fs-4">Privacy Policy</a>
@@ -375,7 +396,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12 col-lg-9 col-xl-8 offset-lg-1 offset-xl-2 px-lg-0">
+      <div class="col-12 col-xl-8 offset-xl-2">
         <p class="fs-4 text-white text-center">© 2025 Lorem Ipsum - P.IVA 12345678</p>¯
       </div>
     </div>
