@@ -47,7 +47,7 @@ npm run build
 ## Suddivisione in blocchi/componenti della pagina per contenuti flessibili 🧩
 
 Per garantire modularità e flessibilità nella costruzione delle pagine, utilizziamo **Advanced Custom Fields (ACF)** con la **Flexible Content** incluso nello stesso plugin.  
-Questo approccio consente di creare layout composti da blocchi e componenti riutilizzabili, facilmente configurabili dal backend senza la necessità di sviluppare template rigidi.  
+Questo approccio consente di creare layout composti da blocchi e componenti riutilizzabili, facilmente configurabili dal backend.  
 Il Flexible Content permette di definire diverse “righe” o “blocchi” personalizzati, ognuno con i propri sotto-campi, offrendo così la massima libertà nella composizione dei contenuti da parte degli editor. 🎨
 
 ---
