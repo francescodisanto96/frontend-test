@@ -42,9 +42,9 @@ npm run build
 
 ---
 
-# Integrazione in Wordpress 🚀
+## Integrazione in Wordpress 🚀
 
-## Suddivisione in blocchi/componenti della pagina per contenuti flessibili 🧩
+### Suddivisione in blocchi/componenti della pagina per contenuti flessibili 🧩
 
 Per garantire modularità e flessibilità nella costruzione delle pagine, utilizziamo **Advanced Custom Fields (ACF)** con la **Flexible Content** incluso nello stesso plugin.  
 Questo approccio consente di creare layout composti da blocchi e componenti riutilizzabili, facilmente configurabili dal backend.  
@@ -52,14 +52,14 @@ Il Flexible Content permette di definire diverse “righe” o “blocchi” per
 
 ---
 
-## Gestione delle FAQ ❓
+### Gestione delle FAQ ❓
 
 Le FAQ vengono gestite tramite un **Custom Post Type (CPT)** dedicato in WordPress.  
 Ogni FAQ è un singolo post all’interno di questo CPT, permettendo una gestione ordinata e scalabile dei contenuti. 📚
 
 ---
 
-## Plugin e metodologie consigliate 🧰
+### Plugin e metodologie consigliate 🧰
 
 | Funzionalità                        | Plugin / Metodo consigliato                                                   |
 | ----------------------------------- | ----------------------------------------------------------------------------- |
