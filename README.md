@@ -1,4 +1,4 @@
-# Cat & Dogs - Frontend Test
+# Cats & Dogs - Frontend Test
 
 ## 📌 Description
 
@@ -14,11 +14,11 @@ Questo test utilizza [Vite](https://vitejs.dev/) come bundler e [Bootstrap 5](ht
 
    ```bash
    git clone https://github.com/francescodisanto96/frontend-test
-   cd tuo-progetto
+   cd cartella-tuo-progetto
 
    ```
 
-2. **Installa i moduli Node**
+2. **Installa i Node modules**
 
    ```bash
    npm install
