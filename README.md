@@ -64,7 +64,7 @@ Ogni FAQ è un singolo post all’interno di questo CPT, permettendo una gestion
 | Funzionalità                        | Plugin / Metodo consigliato                                                   |
 | ----------------------------------- | ----------------------------------------------------------------------------- |
 | 🌐 Multi-lingua e traduzioni        | WPML (robusto e completo), oppure Polylang (più leggero)                      |
-| 📋 Gestione del menu di navigazione | Menù nativo di WordPress                                                      |
+| 📋 Gestione del menu di navigazione | Menu nativo di WordPress                                                      |
 | 🔍 Ottimizzazione SEO               | Yoast SEO oppure Rank Math                                                    |
 | 📬 Pagine con form di contatto      | Contact Form 7 o Gravity Forms (premium)                                      |
 | 🍪 Gestione consensi cookie         | Complianz (GDPR/Cookie compliance), oppure Cookiebot per soluzioni enterprise |
