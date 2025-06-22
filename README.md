@@ -46,27 +46,27 @@ npm run build
 
 ### 🧩 Suddivisione in blocchi/componenti della pagina per contenuti flessibili
 
-Per garantire modularità e flessibilità nella costruzione delle pagine, utilizziamo **Advanced Custom Fields (ACF)** con la **Flexible Content** incluso nello stesso plugin.  
+Per garantire modularità e flessibilità nella costruzione delle pagine, possiamo utilizzare **Advanced Custom Fields (ACF)** con **Flexible Content** incluso nello stesso plugin.  
 Questo approccio consente di creare layout composti da blocchi e componenti riutilizzabili, facilmente configurabili dal backend.  
-Il Flexible Content permette di definire diverse “righe” o “blocchi” personalizzati, ognuno con i propri sotto-campi, offrendo così la massima libertà nella composizione dei contenuti da parte degli editor. 🎨
+Il Flexible Content permette di definire diverse “righe” o “blocchi” personalizzati, ognuno con i propri sotto-campi, offrendo così la massima libertà nella composizione dei contenuti da parte degli editor.
 
 ---
 
 ### ❓ Gestione delle FAQ
 
-Le FAQ vengono gestite tramite un **Custom Post Type (CPT)** dedicato in WordPress.  
-Ogni FAQ è un singolo post all’interno di questo CPT, permettendo una gestione ordinata e scalabile dei contenuti. 📚
+Le FAQ possono essere gestite tramite un **Custom Post Type (CPT)** dedicato in WordPress.  
+Ogni FAQ è un singolo post all’interno di questo CPT, permettendo una gestione ordinata e scalabile dei contenuti.
 
 ---
 
 ### 🧰 Plugin e metodologie consigliate
 
-| Funzionalità                        | Plugin / Metodo consigliato                                                   |
-| ----------------------------------- | ----------------------------------------------------------------------------- |
-| 🌐 Multi-lingua e traduzioni        | WPML (robusto e completo), oppure Polylang (più leggero)                      |
-| 📋 Gestione del menu di navigazione | Menu nativo di WordPress                                                      |
-| 🔍 Ottimizzazione SEO               | Yoast SEO oppure Rank Math                                                    |
-| 📬 Pagine con form di contatto      | Contact Form 7 o Gravity Forms (premium)                                      |
-| 🍪 Gestione consensi cookie         | Complianz (GDPR/Cookie compliance), oppure Cookiebot per soluzioni enterprise |
+| Funzionalità                        | Plugin / Metodo consigliato    |
+| ----------------------------------- | ------------------------------ |
+| 🌐 Multi-lingua e traduzioni        | WPML o Polylang                |
+| 📋 Gestione del menu di navigazione | Menu nativo di WordPress       |
+| 🔍 Ottimizzazione SEO               | Yoast SEO o Rank Math          |
+| 📬 Pagine con form di contatto      | Contact Form 7 o Gravity Forms |
+| 🍪 Gestione consensi cookie         | Complianz o Cookiebot          |
 
 ---
