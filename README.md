@@ -6,7 +6,7 @@ Per questo test ho utilizzato [Vite](https://vitejs.dev/) come bundler e [Bootst
 
 Anche se la pagina è in HTML statico e tutto è contenuto in un unico file index.html, l’ho comunque strutturata pensando in ottica modulare.
 
-Ho suddiviso il markup in section ben definite (esempio: hero, cards, features faqs, call-to-action) proprio per rendere il codice leggibile e pronto, eventualmente, per una futura integrazione in un CMS come WordPress.
+Ho suddiviso il markup in section ben definite (esempio: hero, cards, features, call-to-action e faqs) proprio per rendere il codice leggibile e pronto, eventualmente, per una futura integrazione in un CMS come WordPress.
 
 In pratica, ogni blocco è pensato come se fosse un componente riutilizzabile. Questo approccio torna molto utile quando si passa alla gestione dinamica dei contenuti: ogni section HTML può diventare facilmente un "partial" o un layout di blocco.
 
@@ -54,7 +54,7 @@ npm run build
 
 In un contesto WordPress, per ottenere flessibilità e mantenere il controllo sul layout e sui contenuti nella costruzione delle pagine, possiamo utilizzare **Advanced Custom Fields (ACF)** con **Flexible Content** incluso nello stesso plugin.
 
-Con ACF Flexible Content possiamo costruire una struttura "a blocchi" - ognuno con i propri sotto-campi - ed ogni blocco può rappresentare una sezione della pagina (esempio: hero, cards, features faqs, call-to-action) e l’editor può scegliere quali blocchi usare e in quale ordine.
+Con ACF Flexible Content possiamo costruire una struttura "a blocchi" - ognuno con i propri sotto-campi - ed ogni blocco può rappresentare una sezione della pagina (esempio: hero, cards, features, call-to-action e faqs) e l’editor può scegliere quali blocchi usare e in quale ordine.
 
 ---
 
