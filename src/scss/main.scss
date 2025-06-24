@@ -123,11 +123,18 @@ main {
         @include media-breakpoint-up(sm) {
           bottom: 0 !important;
         }
+      }
 
+      .animal-shape-wrapper {
+        @include media-breakpoint-up(sm) {
+          width: auto !important;
+        }
+      }
+
+      .animal-image-wrapper {
         @include media-breakpoint-up(xl) {
           width: auto !important;
         }
-
       }
     }
   }
