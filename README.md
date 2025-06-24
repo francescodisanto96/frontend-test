@@ -2,7 +2,13 @@
 
 ## 📌 Descrizione
 
-Questo test utilizza [Vite](https://vitejs.dev/) come bundler e [Bootstrap 5](https://getbootstrap.com/) come framework CSS.
+Per questo testo ho utilizzato [Vite](https://vitejs.dev/) come bundler e [Bootstrap 5](https://getbootstrap.com/) come framework CSS.
+
+Anche se la pagina è in HTML statico e tutto è contenuto in un unico file index.html, l’ho comunque strutturata pensando in ottica modulare.
+
+Ho suddiviso il markup in section ben definite (esempio: hero, cards, features faqs, call-to-action) proprio per rendere il codice leggibile e pronto, eventualmente, per una futura integrazione in un CMS come WordPress.
+
+In pratica, ogni blocco è pensato come se fosse un componente riutilizzabile. Questo approccio torna molto utile quando si passa alla gestione dinamica dei contenuti: ogni section HTML può diventare facilmente un "partial" o un layout di blocco.
 
 ## 🔧 Requisiti
 
@@ -46,9 +52,9 @@ npm run build
 
 ### 🧩 Suddivisione in blocchi/componenti della pagina per contenuti flessibili
 
-Per garantire modularità e flessibilità nella costruzione delle pagine, possiamo utilizzare **Advanced Custom Fields (ACF)** con **Flexible Content** incluso nello stesso plugin.  
-Questo approccio consente di creare layout composti da blocchi e componenti riutilizzabili, facilmente configurabili dal backend.  
-Il Flexible Content permette di definire diverse “righe” o “blocchi” personalizzati, ognuno con i propri sotto-campi, offrendo così la massima libertà nella composizione dei contenuti da parte degli editor.
+In un contesto WordPress, per ottenere flessibilità e mantenere il controllo sul layout e sui contenuti nella costruzione delle pagine, possiamo utilizzare **Advanced Custom Fields (ACF)** con **Flexible Content** incluso nello stesso plugin.
+
+Con ACF Flexible Content possiamo costruire una struttura "a blocchi" - ognuno con i propri sotto-campi - ed ogni blocco può rappresentare una sezione della pagina (esempio: hero, cards, features faqs, call-to-action) e l’editor può scegliere quali blocchi usare e in quale ordine.
 
 ---
 
