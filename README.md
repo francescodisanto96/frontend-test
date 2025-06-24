@@ -2,7 +2,7 @@
 
 ## 📌 Descrizione
 
-Per questo testo ho utilizzato [Vite](https://vitejs.dev/) come bundler e [Bootstrap 5](https://getbootstrap.com/) come framework CSS.
+Per questo test ho utilizzato [Vite](https://vitejs.dev/) come bundler e [Bootstrap 5](https://getbootstrap.com/) come framework CSS.
 
 Anche se la pagina è in HTML statico e tutto è contenuto in un unico file index.html, l’ho comunque strutturata pensando in ottica modulare.
 
