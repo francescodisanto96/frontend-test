@@ -119,10 +119,15 @@ main {
     .animal-card {
       height: 640px;
 
-      .animal-shape-wrapper {
+      .animal-image-wrapper {
         @include media-breakpoint-up(sm) {
+          bottom: 0 !important;
+        }
+
+        @include media-breakpoint-up(xl) {
           width: auto !important;
         }
+
       }
     }
   }
