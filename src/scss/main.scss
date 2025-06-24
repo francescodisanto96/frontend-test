@@ -19,7 +19,6 @@ $theme-colors: map-merge($theme-colors, $custom-colors);
 
 // Importa file personalizzati
 @import "./bootstrap/utilities";
-/* @import "./bootstrap/typography"; */
 
 
 @import 'bootstrap/scss/bootstrap';
